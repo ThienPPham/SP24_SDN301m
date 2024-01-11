@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "express-generator": "^4.16.1"
-  }
+  },
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "build the\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CREST API for the React application",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thien Pham",
+  "license": "ISC"
 }

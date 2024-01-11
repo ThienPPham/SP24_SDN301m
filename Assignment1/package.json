@@ -1,0 +1,14 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "Node modules, Express and the REST API practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thien Phuoc Pham \u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b Pham",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
