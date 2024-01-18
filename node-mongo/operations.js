@@ -1,6 +1,7 @@
 const assert = require('assert');
 
-exports.insertDocument = (db, document, collection, callback) => {
+//Exercise 9
+/*exports.insertDocument = (db, document, collection, callback) => {
     const coll = db.collection(collection);
     coll.insert(document, (err, result) => {
         assert.equal(err, null);
@@ -34,4 +35,25 @@ exports.updateDocument = (db, document, update, collection, callback) => {
         console.log("Updated the document with ", update);
         callback(result);        
     });
+};*/
+
+exports.insertDocument = (db, document, collection, callback) => {
+    const coll = db.collection(collection);
+    return coll.insert(document);
 };
+
+exports.findDocuments = (db, collection, callback) => {
+    const coll = db.collection(collection);
+    return coll.find({}).toArray();
+};
+
+exports.removeDocument = (db, document, collection, callback) => {
+    const coll = db.collection(collection);
+    return coll.deleteOne(document);
+};
+
+exports.updateDocument = (db, document, update, collection, callback) => {
+    const coll = db.collection(collection);
+    return coll.updateOne(document, { $set: update }, null);
+};
+
