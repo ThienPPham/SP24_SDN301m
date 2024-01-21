@@ -1,0 +1,15 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "Operation.js file containing CRUD functions, Server.js file to execute the CRUD functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thien Pham",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.5.0",
+    "mongodb": "^3.5.9"
+  }
+}
