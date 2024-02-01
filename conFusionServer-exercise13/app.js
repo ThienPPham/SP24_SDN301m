@@ -33,8 +33,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 //app.use(cookieParser());
 
-<<<<<<< HEAD
-
 //Exercise 16
 /*app.use(cookieParser('12345-67890'));
 =======
@@ -73,7 +71,6 @@ function auth(req, res, next) {
       next(err);
     }
   }
-<<<<<<< HEAD
 }*/
 
 app.use(session({
@@ -122,11 +119,6 @@ function auth (req, res, next) {
     }
 }
 
-
-=======
-}
-
->>>>>>> e4671f3b364d52b7dbcc2a041af3d5c7a05cc295
 app.use(auth);
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
