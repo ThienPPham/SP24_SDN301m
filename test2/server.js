@@ -9,7 +9,7 @@ MongoClient.connect(url).then((client) =>{
     console.log('Connected correctly to server');
     const db = client.db(dbname);
 
-    dboper.insertDocument(db, {name:"Weekend Grand Buffet", image:"images/buffet.png", label:"New", price:"19.99", description:"Featuring...", featured: "false"}, "promotions")
+    dboper.insertDocument(db, {name:"Weekend Grand Buffet2", image:"images/buffet.png", label:"New", price:"19.99", description:"Featuring...", featured: "false"}, "promotions")
     .then((result) =>{
         console.log("Insert Document:\n", result.ops);
 
@@ -28,9 +28,9 @@ MongoClient.connect(url).then((client) =>{
     .then((docs) =>{
         console.log("Found document updated:\n ", docs);
 
-        return db.dropCollection("promotions");
+        return dboper.removeDocument(db, {}, "promotions");
     })
-    .then((result) =>{
+    then((result) =>{
         console.log("Dropped Collection: ", result);
 
         return client.close();
@@ -39,3 +39,5 @@ MongoClient.connect(url).then((client) =>{
 })
 
 .catch((err) => console.log(err));
+
+//dropCollection

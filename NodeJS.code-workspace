@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "../html_css"
+        },
+        {
+            "path": "."
+        },
+        {
+            "path": "../Nodejs project"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Movie-ticket-booking"
+    }
+}

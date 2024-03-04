@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Peter Pan",
+        "image": "peter_pan.jpg",
+        "designation": "CEO",
+        "abbr": "CEO",
+        "description": "Peter Pan is the CEO of the company. He leads the team with his visionary ideas and innovative strategies.",
+        "featured": true
+    },
+    {
+        "name": "Alice Wonderland",
+        "image": "alice_wonderland.jpg",
+        "designation": "CFO",
+        "abbr": "CFO",
+        "description": "Alice Wonderland serves as the Chief Financial Officer. She manages the company's finances and ensures fiscal responsibility.",
+        "featured": false
+    },
+    {
+        "name": "John Doe",
+        "image": "john_doe.jpg",
+        "designation": "CTO",
+        "abbr": "CTO",
+        "description": "John Doe holds the position of Chief Technology Officer. He oversees the technological aspects of the company's operations.",
+        "featured": true
+    }
+]
+
+[
+    {
+        "name": "Special Offer 1",
+        "image": "special_offer_1.jpg",
+        "label": "New",
+        "price": 9.99,
+        "description": "Get 20% off on our special dish!",
+        "featured": true
+    },
+    {
+        "name": "Holiday Deal",
+        "image": "holiday_deal.jpg",
+        "label": "Holiday",
+        "price": 19.99,
+        "description": "Enjoy a special holiday deal with a 3-course meal!",
+        "featured": false
+    },
+    {
+        "name": "Weekend Promotion",
+        "image": "weekend_promotion.jpg",
+        "label": "Weekend",
+        "price": 14.99,
+        "description": "Join us for a weekend promotion with live music and special discounts!",
+        "featured": true
+    }
+]
+
+{
+  "name": "Bun Cha",
+  "description": "Traditional Vietnamese dish",
+  "image": "bun-cha.jpg",
+  "category": "Vietnamese",
+  "label": "Popular",
+  "price": 8.99,
+  "featured": true,
+  "comments": [
+    {
+      "rating": 5,
+      "comment": "The sweet and savory taste of this dish is amazing!",
+    },
+    {
+      "rating": 4,
+      "comment": "Delicious, but I'd like more herbs.",
+    }
+  ]
+}
+
+{
+  "name": "Pizza Margherita",
+  "description": "Classic Italian pizza with tomatoes, cheese, and herbs",
+  "image": "pizza-margherita.jpg",
+  "category": "Italian",
+  "price": 10.99,
+  "featured": false,
+  "comments": []
+}
+
+{
+  "name": "Sushi",
+  "description": "Traditional Japanese dish",
+  "image": "sushi.jpg",
+  "category": "Japanese",
+  "price": 15.99,
+  "featured": true,
+  "comments": [
+    {
+      "rating": 3,
+      "comment": "Pretty good, but not the best I've ever had.",
+    }
+  ]
+}

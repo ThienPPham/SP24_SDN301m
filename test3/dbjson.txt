@@ -1,0 +1,94 @@
+books: 
+  {
+    "name": "TheGreatGatsby",
+    "title": "The Great Gatsby",
+    "subTitle": "A Novel",
+    "publish_date": "1925-04-10",
+    "publisher": "Scribner",
+    "page": 218,
+    "description": "The story primarily concerns the young and mysterious millionaire Jay Gatsby and his quixotic passion and obsession for the beautiful former debutante Daisy Buchanan.",
+    "website": "https://example.com/greatgatsby",
+    "comments": [
+      {
+        "comment": "A classic!"
+      },
+      {
+        "comment": "Love the characters"
+      }
+    ]
+  },
+  {
+    "name": "ToKillAMockingbird",
+    "title": "To Kill a Mockingbird",
+    "subTitle": "A Novel",
+    "publish_date": "1960-07-11",
+    "publisher": "J.B. Lippincott & Co.",
+    "page": 281,
+    "description": "The novel is renowned for its warmth and humor, despite dealing with the serious issues of rape and racial inequality.",
+    "website": "https://example.com/tokillamockingbird",
+    "comments": [
+      {
+        "comment": "Powerful"
+      },
+      {
+        "comment": "Must-read"
+      }
+    ]
+  },
+  {
+    "name": "1984",
+    "title": "1984",
+    "subTitle": "Nineteen Eighty-Four",
+    "publish_date": "1949-06-08",
+    "publisher": "Secker & Warburg",
+    "page": 328,
+    "description": "The novel is set in Airstrip One, a province of the superstate Oceania in a world of perpetual war, omnipresent government surveillance, and public manipulation.",
+    "website": "https://example.com/1984",
+    "comments": [
+      {
+        "comment": "Dystopian masterpiece"
+      },
+      {
+        "comment": "Chilling"
+      }
+    ]
+  }
+]
+
+genre: [
+  {
+    "id": 1,
+    "name": "Fiction"
+  },
+  {
+    "id": 2,
+    "name": "Mystery"
+  },
+  {
+    "id": 3,
+    "name": "Science Fiction"
+  }
+]
+
+author: [
+  {
+    "id": 1,
+    "name": "Jane Austen",
+    "birthYear": 1775,
+    "country": "United Kingdom"
+  },
+  {
+    "id": 2,
+    "name": "Charles Dickens",
+    "birthYear": 1812,
+    "country": "United Kingdom"
+  },
+  {
+    "id": 3,
+    "name": "Gabriel García Márquez",
+    "birthYear": 1927,
+    "country": "Colombia"
+  }
+]
+
+
