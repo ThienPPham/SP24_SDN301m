@@ -1,13 +1,7 @@
 {
     "folders": [
         {
-            "path": "../html_css"
-        },
-        {
-            "path": "."
-        },
-        {
-            "path": "../Nodejs project"
+            "path": "../f8_project/w3_band"
         }
     ],
     "settings": {

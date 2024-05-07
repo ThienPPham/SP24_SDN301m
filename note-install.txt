@@ -17,3 +17,5 @@ npm install --save mongoose-currency --legacy--peer-deps
 npm install passport passport-local passport-local-mongoose --legacy--peer-deps
 npm install passport-jwt jsonwebtoken --legacy--peer-deps
 
+npm install multer --legacy--peer-deps
+
